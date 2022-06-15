@@ -11,8 +11,6 @@ C
 2.000000000052E10
 */
 
-package java08;
-
 public class java08 {
     private static byte bt;
 

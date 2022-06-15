@@ -1,5 +1,3 @@
-package java09;
-
 public class java09 {
     public static void main(String[] args){
         String name = "Hector";

@@ -6,8 +6,6 @@
 - En el caso de long, el numero debera de desbordar 20000 posiciones.
 */
 
-package java06;
-
 public class java06 {
 
     public static void main(String[] args){

@@ -1,5 +1,3 @@
-package java04;
-
 public class java04 {
     public static void main(String[] args){
         int num1 = 10; // set num1 equal 10
