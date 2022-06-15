@@ -1,6 +1,6 @@
-package daktika04;
+package java04;
 
-public class daktika04 {
+public class java04 {
     public static void main(String[] args){
         int num1 = 10; // set num1 equal 10
         int num2 = 20; // set num2 equal 20

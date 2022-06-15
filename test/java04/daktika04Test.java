@@ -1,4 +1,4 @@
-package daktika04;
+package java04;
 
 import org.junit.Test;
 

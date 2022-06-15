@@ -1,6 +1,6 @@
-package daktika03;
+package java03;
 
-public class daktika03 {
+public class java03 {
     public static void main(String[] args) {
         System.out.println("Hello\nWorld");
         System.out.println("Hello\tWorld");
