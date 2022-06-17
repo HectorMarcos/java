@@ -1,5 +1,6 @@
 public class java20 {
-    public static void main(String[] args){
+
+    static void java20(){
         for (int i = 0; i < 10; i++) {
             System.out.println(i);
             if (i == 3){
@@ -15,5 +16,8 @@ public class java20 {
                 break;
             }
         }
+    }
+    public static void main(String[] args){
+        //java20();
     }
 }

@@ -1,5 +1,6 @@
 public class java10 {
-    public static void main(String[] args){
+
+    static void java10(){
         int sumI = 10;
         int sumJ = 5;
         int sumResult = sumI - sumJ;
@@ -33,6 +34,9 @@ public class java10 {
         int divRestJ = 4;
         int divRestResult = divRestI % divRestJ;
         System.out.println(divRestResult);
+    }
+    public static void main(String[] args){
+        //java10();
     }
 
 }

@@ -1,5 +1,5 @@
 public class java09 {
-    public static void main(String[] args){
+    static void java09(){
         String name = "Hector";
         String surname = "Marcos";
         String road = "Mulhacen";
@@ -12,5 +12,8 @@ public class java09 {
         System.out.println("Address: "+road+" "+city+" "+postalzip);
         System.out.println("Sex: "+sex);
         System.out.println("email: "+email);
+    }
+    public static void main(String[] args){
+        //java09();
     }
 }

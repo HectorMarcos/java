@@ -12,9 +12,7 @@ C
 */
 
 public class java08 {
-    private static byte bt;
-
-    public static void main(String[] args) {
+    static void java08(){
         final boolean bol = false; //
         final char xar = 'C';
         final byte bt = 10;
@@ -32,5 +30,8 @@ public class java08 {
         System.out.println(lng);
         System.out.println(flt);
         System.out.println(dbl);
+    }
+    public static void main(String[] args) {
+        java08();
     }
 }

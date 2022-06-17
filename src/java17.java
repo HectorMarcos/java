@@ -1,5 +1,5 @@
-public class java17a {
-    public static void main(String[] args) {
+public class java17 {
+    static void java17a() {
         int num = 9;
         switch (num) {
             case 1:
@@ -34,5 +34,13 @@ public class java17a {
                 System.out.println("Zero");
                 break;
         }
+    }
+    static void java17b() {
+        double num = 0;
+        System.out.println((num == 0) ? "It's zero!" : (num > 0 ? "It's positive!" : "It's negative"));
+    }
+    public static void main(String[] args) {
+        //java17a();
+        //java17b();
     }
 }

@@ -20,6 +20,7 @@ public class java25 {
     }
 
     public static void main(String[] args) {
+        //byteTable();
         //tableBytePaint();
     }
 

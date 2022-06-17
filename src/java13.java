@@ -1,5 +1,6 @@
 public class java13 {
-    public static void main(String[] args){
+
+    static void java13(){
         int num1 = 1;
         int num2 = 2;
         int num3 = 3;
@@ -14,5 +15,8 @@ public class java13 {
         System.out.println((num2 > num4));
         System.out.println((num2 > num3));
         System.out.println((num2 >= num3));
+    }
+    public static void main(String[] args){
+        //java13();
     }
 }

@@ -1,5 +1,6 @@
 public class java18 {
-    public static void main(String[] args) {
+
+    static void java18(){
         String star = "";
         String space = "        ";
         for (int i = 0; i < 8; i++) {
@@ -11,5 +12,8 @@ public class java18 {
         for (int i = 0; i < 2; i++) {
             System.out.println("       " + tree);
         }
+    }
+    public static void main(String[] args) {
+        //java18();
     }
 }
