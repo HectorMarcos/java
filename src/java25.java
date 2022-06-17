@@ -7,20 +7,21 @@ public class java25 {
             noPrimitivo += i;
         }
         finish = System.currentTimeMillis();
-        System.out.println("Rango byte desde: "+ (finish - start) +"ms");
+        System.out.println("Rango byte desde: " + (finish - start) + "ms");
     }
 
-    static void tablePaint(String obj, String firstValue, String lastValue){
-        System.out.println("Rango "+obj+" desde: "+firstValue+" hasta: "+lastValue);
+    static void tableBytePaint() {
+        byte firstValue = Byte.MIN_VALUE;
+        byte lastValue = Byte.MAX_VALUE;
+        System.out.println("Rango byte desde: " + firstValue + " hasta: " + lastValue);
         for (int i = 0; i < 40; i++) {
             System.out.print("-");
         }
     }
 
     public static void main(String[] args) {
-        tablePaint("byte", "-128", "127");
+        //tableBytePaint();
     }
-
 
 
 }
