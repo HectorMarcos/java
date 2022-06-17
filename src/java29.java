@@ -12,6 +12,6 @@ public class java29 {
     }
 
     public static void main(String[] args) {
-        courseAltTable("Hector", "Marcos", "Java", "2022");
+        //courseAltTable("Hector", "Marcos", "Java", "2022");
     }
 }
