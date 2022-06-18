@@ -37,9 +37,9 @@ public class java31 {
 
     public static void main(String[] args) {
         //String[] technologies = {"Markdown", "Regexp", "HTML", "CSS", "JS", "SQL", "Java"};
-        java31 java31 = new java31();
+        //java31 java31 = new java31();
         //java31.arrayRunner(technologies);
-        java31.fibonacci();
+        //java31.fibonacci();
 
 
     }
