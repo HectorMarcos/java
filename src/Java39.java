@@ -28,14 +28,36 @@ class Car2 {
     }
 }
 
+class HondaCar extends Car2 {
+    private boolean isElectric;
+
+    public HondaCar() {
+        super("Honda", 100);
+    }
+}
+
+class JeepCar extends Car2 {
+
+    public JeepCar() {
+        super("Jeep", 500);
+    }
+}
+
+class BMWCar extends Car2 {
+
+    public BMWCar() {
+        super("BMW", 800);
+    }
+}
+
 public class Java39 {
     void test(){
-    Car2 Honda = new Car2("Honda",100);
-    Honda.msg();
-    Car2 Jeep = new Car2("Jeep", 500);
-    Jeep.msg();
-    Car2 BMW = new Car2("BMW", 800);
-    BMW.msg();
+    Car2 honda = new HondaCar();
+        honda.msg();
+    Car2 jeep = new JeepCar();
+        jeep.msg();
+    Car2 bmw = new BMWCar();
+        bmw.msg();
     }
     public static void main(String[] args) {
         Java39 Java39 = new Java39();

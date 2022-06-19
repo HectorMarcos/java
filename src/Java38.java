@@ -51,5 +51,4 @@ class Alumn implements IPerson {
 }
 
 public class Java38  {
-
 }

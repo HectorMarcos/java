@@ -10,7 +10,7 @@ class Plant extends LivingBeing{
 }
 
 abstract class Animal extends LivingBeing{
-    abstract void feed();
+
 }
 
 class CarnivorousAnimal extends Animal{
@@ -28,4 +28,14 @@ class HerbivorousAnimal extends Animal{
 }
 
 public class Java37 {
+    public static void main(String[] args) {
+        LivingBeing plant = new Plant();
+        plant.feed();
+
+        LivingBeing carnivorousAnimal = new CarnivorousAnimal();
+        carnivorousAnimal.feed();
+
+        LivingBeing herbivorousAnimal = new HerbivorousAnimal();
+        herbivorousAnimal.feed();
+    }
 }
