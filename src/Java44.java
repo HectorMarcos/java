@@ -58,16 +58,30 @@ class Developer{
     public void setRole(String role) {
         this.role = role;
     }
+
+
 }
 
 
+
 public class Java44 {
+
+    void checkRole(Developer dev){
+        if(dev.getRole() == "FULL_STACK_DEVELOPER" || dev.getRole() == "BACK_END_DEVELOPER"){
+            System.out.println(dev.getName()+" Viva el Back");
+        }
+        if(dev.getRole() == "FRONT_END_DEVELOPER"){
+            System.out.println(dev.getName()+" JS es una 💩 es mejor utlizar TypeScript");
+        }
+    }
+
     public static void main(String[] args) {
         Developer Hector = new Developer("Hector", "Marcos", 33, "111111111A", Professions.FULL_STACK_DEVELOPER.toString());
-
         Developer Pedro = new Developer("Pedro", "Asdf", 30,"111111111A", Professions.BACK_END_DEVELOPER.toString());
-
-        Developer Hector = new Developer("Celia", "Fdsa", 24, "111111111A", Professions.FRONT_END_DEVELOPER.toString());
-        //TODO Punto 5 y 6, comprobar los roles según parametros
+        Developer Celia = new Developer("Celia", "Fdsa", 24, "111111111A", Professions.FRONT_END_DEVELOPER.toString());
+        Java44 java44 = new Java44();
+        java44.checkRole(Hector);
+        java44.checkRole(Pedro);
+        java44.checkRole(Celia);
     }
 }
