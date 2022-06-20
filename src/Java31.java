@@ -1,6 +1,6 @@
 public class Java31 {
     int i = 0;
-    boolean interruptor = true;
+    boolean interruptor;
 
     void arrayRunner(String[] array) {
         System.out.println(i + " " + array[i]);
@@ -9,7 +9,7 @@ public class Java31 {
         }
         i++;
         // Break the recursivity
-        if (interruptor != false) {
+        if (!interruptor) {
             arrayRunner(array);
         }
     }
@@ -30,18 +30,16 @@ public class Java31 {
         if (n3 == 55) {
             k = false;
         }
-        if (k != false) {
+        if (!k) {
             fibonacci();
         }
     }
 
     public static void main(String[] args) {
         //String[] technologies = {"Markdown", "Regexp", "HTML", "CSS", "JS", "SQL", "Java"};
-        //java31 java31 = new java31();
+        //Java31 java31 = new Java31();
         //java31.arrayRunner(technologies);
         //java31.fibonacci();
-
-
     }
 }
 
