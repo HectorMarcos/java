@@ -35,3 +35,4 @@ public class MyJDBC {
 
 
 //FIXME https://www.tutorialspoint.com/jdbc/jdbc-insert-records.htm
+//FIXME https://www.youtube.com/watch?v=e8g9eNnFpHQ
