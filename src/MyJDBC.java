@@ -1,7 +1,19 @@
 import java.sql.*;
 
 public class MyJDBC {
+
+    Statement connection(String dburl, String user ,String pwd){
+        try{
+            Connection connection = DriverManager.getConnection(""+dburl, ""+user, ""+pwd);
+            Statement statement = connection.createStatement();
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     void selectAll(String table) {
+
         try {
             Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc", "root", "admin");
             Statement statement = connection.createStatement();
@@ -13,7 +25,7 @@ public class MyJDBC {
             e.printStackTrace();
         }
     }
-    void insert(String name) throws SQLException {
+    void insert(String name){
         try{
             Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc", "root", "admin");
             Statement statement = connection.createStatement();
