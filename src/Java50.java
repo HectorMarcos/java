@@ -46,7 +46,6 @@ public class Java50 {
                     "Bye!",
                     "Bye!",
                     JOptionPane.INFORMATION_MESSAGE);
-
         }
     }
 }
